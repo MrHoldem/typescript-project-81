@@ -1,2 +1,2 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/MrHoldem/typescript-project-81/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/MrHoldem/typescript-project-81/actions)
+[![.github/workflows/HelloWorld.yml](https://github.com/MrHoldem/typescript-project-81/actions/workflows/HelloWorld.yml/badge.svg?branch=main)](https://github.com/MrHoldem/typescript-project-81/actions/workflows/HelloWorld.yml)
