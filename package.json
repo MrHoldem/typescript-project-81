@@ -1,0 +1,24 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/MrHoldem/typescript-project-81/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/MrHoldem/typescript-project-81/actions)",
+  "homepage": "https://github.com/MrHoldem/typescript-project-81#readme",
+  "bugs": {
+    "url": "https://github.com/MrHoldem/typescript-project-81/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrHoldem/typescript-project-81.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tsc",
+    "start" : "node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
