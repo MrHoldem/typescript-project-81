@@ -5,4 +5,4 @@ After completing all the steps in the project, automatic tests will become avail
 The hexlet-check.yml file is responsible for running these tests - do not delete this file, edit it, or rename the repository.
 
 
-[![.github/workflows/HelloWorld.yml](https://github.com/MrHoldem/typescript-project-81/actions/workflows/HelloWorld.yml/badge.svg?branch=main)](https://github.com/MrHoldem/typescript-project-81/actions/workflows/HelloWorld.yml)
+[![tests_lint](https://github.com/MrHoldem/typescript-project-81/actions/workflows/tests_linter.yml/badge.svg)](https://github.com/MrHoldem/typescript-project-81/actions/workflows/tests_linter.yml)
