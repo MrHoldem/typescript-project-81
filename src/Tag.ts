@@ -1,4 +1,4 @@
-type Attributes = {
+export type Attributes = {
     [name: string] : string
 }
 
@@ -10,6 +10,7 @@ export default class Tag {
         ["img", false],
         ["label", true],
         ["form", true],
+        ["textarea", true],
     ]);
 
     constructor(private tagName: string, private attributes: Attributes = {}, private content : string | null = null) {
