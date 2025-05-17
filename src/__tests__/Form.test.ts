@@ -1,4 +1,4 @@
-import {test, describe, expect} from 'vitest'
+import {test, describe, expect} from 'vitest';
 import HtmlGenerator from '../HtmlGenerator';
 
 describe("formFor", () => {
@@ -15,4 +15,4 @@ describe("formFor", () => {
     test("With get method", () => {
         expect(HtmlGenerator.formFor(template, {url: "/users", method : "get"})).toBe(`<form action="/users" method="get"></form>`);
     });
-})
+});

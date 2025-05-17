@@ -1,4 +1,4 @@
-import Tag from "./Tags"
+import Tag from "./Tags";
 
 type FormTemplate = {
     [key: string] : string
