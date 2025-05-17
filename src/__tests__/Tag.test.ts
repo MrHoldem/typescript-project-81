@@ -25,4 +25,8 @@ describe("Tag", () => {
     it ("div", () => {
         expect(new Tag("div").toString()).toBe(`<div></div>`);
     });
+
+    it("form", () => {
+        expect(new Tag("form").toString()).toBe(`<form></form>`);
+    });
 });

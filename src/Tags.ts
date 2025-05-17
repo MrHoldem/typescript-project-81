@@ -9,6 +9,7 @@ export default class Tag {
         ["br", false],
         ["img", false],
         ["label", true],
+        ["form", true],
     ]);
 
     constructor(private tagName: string, private attributes: Attributes = {}, private content : string | null = null) {
@@ -23,7 +24,7 @@ export default class Tag {
 
         if (tagType === false) // Игнорируем content, если тег одинарный.
             return result;
-
+            
         if (tagType === true || this.content?.length)
             return result + this.content + `</${this.tagName}>`;
 
