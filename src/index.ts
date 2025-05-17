@@ -1,1 +1,1 @@
-import Tag from "./Tags";
+import Tag from "./Tag";

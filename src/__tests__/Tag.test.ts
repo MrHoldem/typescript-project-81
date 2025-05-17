@@ -1,5 +1,5 @@
 import {describe, expect, test, it} from 'vitest';
-import Tag from "../Tags";
+import Tag from "../Tag";
 
 describe("Tag", () => {
     it ("<br>", () => {
