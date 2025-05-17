@@ -70,7 +70,7 @@ describe("formFor", () => {
         expect(() => {
         HtmlGenerator.formFor(template, {url: "#", method: "post"}, (f) => {
             f.input("age");
-        })}).toThrow("Error: Field age does not exist in the template.");
+        });}).toThrow("Error: Field age does not exist in the template.");
     });
   });
 });
