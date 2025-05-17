@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/MrHoldem/typescript-project-81/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/MrHoldem/typescript-project-81/actions)",
+  "description": "[![Actions Status](https://github.com/MrHoldem/typescript-project-81/actions/workflows/tests_linter.yml/badge.svg)](https://github.com/MrHoldem/typescript-project-81/actions)",
   "homepage": "https://github.com/MrHoldem/typescript-project-81#readme",
   "bugs": {
     "url": "https://github.com/MrHoldem/typescript-project-81/issues"

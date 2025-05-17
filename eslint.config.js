@@ -14,11 +14,9 @@
       plugins: {
         '@typescript-eslint': eslintPluginTs,
       },
-      rules: {
-        semi: ['error', 'double'],
-        quotes: ['error', 'always'],
-        quotes: 'off',
-        semi: 'off',
-      },
+        rules: {
+          quotes: 'off', // Кавычки могут быть любыми
+          semi: ['error', 'always'],    // Требовать точки с запятой
+        },
     },
   ]
