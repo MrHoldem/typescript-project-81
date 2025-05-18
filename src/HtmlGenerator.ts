@@ -17,6 +17,7 @@ type FormBuilderParams  = {
 
 export interface IFormBuilder {
     input(name: string, params?: FormBuilderParams) : void;
+    submit(buttonName?: string) : void;
 }
 
 interface IInternFormBuilder extends IFormBuilder {   
@@ -40,11 +41,14 @@ export default class HtmlGenerator {
                     throw Error(`Error: Field ${name} does not exist in the template.`);
                 
                 if (params === null || params === undefined) {
-                    this.currentHtml += new Tag("input", {name: name, type: "text", value: template[name]});
+                    this.currentHtml += new Tag("label", {for: name}, name).toString();
+                    this.currentHtml += new Tag("input", {name: name, type: "text", value: template[name]}).toString();
                     return;
                 }
 
                 const tagName : string = params["as"] === undefined ? "input" : params!["as"]!;
+                
+                this.currentHtml += new Tag("label", {for: name}, name).toString();
 
                 switch (tagName) {
                     case "input":
@@ -64,6 +68,9 @@ export default class HtmlGenerator {
                     default:
                         throw Error(`Erorr: Unsupported type ${tagName}`);
                 }
+            },
+            submit(buttonName: string = "Save") : void {
+                this.currentHtml += new Tag("input", {type: "submit", value: buttonName}).toString();
             }
         };
     }
